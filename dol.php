@@ -9,13 +9,16 @@
 	
 	
 	<?php
+		
 		if($_GET['action'] == "no")
 		{	
-		 $i = $_GET['imie'];
-		  echo ("Twoje imiê to $i");
+			 $i = $_GET['imie'];
+			  echo ("Twoje imiê to $i");
+			  $KOLOR = $_GET['KOLOR'];
 		}
 		else
 		{
+		$KOLOR = $_GET['kolor']; 
 		if($_GET['action']=="add")
 		{
 			$file = fopen("chat.txt", "r");
@@ -47,13 +50,30 @@
 				
 			$imie = $_GET['imie']; 
 			$tekst = $_GET['tekst'];
-			fwrite($file, "$imie : $tekst\n");
+			fwrite($file, "<font color=$KOLOR>$imie : $tekst</font>\n");
 			flock($file,3);
 			fclose($file);
 		}
 		}
 	$imie = $_GET['imie'];
 	echo ("<input type=hidden name=\"imie\" value=$imie>");
+	
+	$kolor[0] ="black";
+	$opis[0] ="Czarny";
+	$kolor[1] ="blue";
+	$opis[1] ="Niebieski";
+	$kolor[2] ="green";
+	$opis[2] ="Zielony";
+	
+	echo ("<select name=kolor>");
+	for($i=0;$i<3;$i++)
+	{
+		echo("<option value=$kolor[$i]");
+		if($kolor[$i] == $KOLOR)
+			echo("selected");
+			echo(">$opis[$i]</option>");
+	}
+	echo ("</select>");
 
 	?>
 	<input type=hidden name="action" value="add">
