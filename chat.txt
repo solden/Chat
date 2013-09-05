@@ -1,0 +1,15 @@
+<font color=>a</font> : Hej hej 
+<font color=black>a</font> : a
+<font color=black>a</font> : b
+<font color=>a</font> : hehehe
+<font color=>a</font> : aaaaaa
+<font color=>a</font> : aaa
+<font color=>a</font> : hahaha
+<font color=>a</font> : hahaha
+<font color=blue>a</font> : aaaaa
+<font color=green>a</font> : hehehehehe
+<font color=greenselected>a</font> : ooo prosze .. dzia³a 
+<font color=black>a</font> : ;-)
+<font color=blue>Grzegorz : Teraz bêdzie dzia³aæ ;-)</font>
+<font color=blackselected>a : a</font>
+<font color=black>a : hahaha</font>
