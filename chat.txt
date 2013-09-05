@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<font color=black>Grzes</font> : hej hej
+<font color=black>Grzes</font> : hej hej 
+>>>>>>> 797944b0f082841dbdb78c5deee6cb7d6cdecaca
 <font color=>a</font> : Hej hej 
 <font color=black>a</font> : a
 <font color=black>a</font> : b
@@ -11,5 +16,8 @@
 <font color=greenselected>a</font> : ooo prosze .. dzia³a 
 <font color=black>a</font> : ;-)
 <font color=blue>Grzegorz : Teraz bêdzie dzia³aæ ;-)</font>
+<<<<<<< HEAD
 <font color=blackselected>a : a</font>
 <font color=black>a : hahaha</font>
+=======
+>>>>>>> 797944b0f082841dbdb78c5deee6cb7d6cdecaca
